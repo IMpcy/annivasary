@@ -1,0 +1,227 @@
+/* All */
+*{
+    font-family: "Playfair Display", serif;
+}
+.thai{
+    font-family: 'Noto Sans Thai';
+}
+
+/* index/intro.html */
+p{
+    text-align: center;
+    font-size: 19px;
+}
+
+.button{
+    text-align: center;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.button a{
+    display: inline-block;
+    padding: 12px 35px;
+    background-color: #bdf8fe;
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 10px;
+    transition: transform 0.2s ease,
+                background-color 0.15s ease;
+}
+
+.button a:active{
+    transform: scale(0.9);
+}
+
+/* index.html */
+h1{
+    text-align: center;
+    color: red;
+}
+.yes-image{
+    display: flex;
+    justify-content: center;
+}
+.yes-image img{
+    width: 25%;
+    height: auto;
+    margin-top: 30px;
+}
+
+/* intro.html */
+
+.no-button a{
+    display: inline-block;
+    padding: 12px 35px;
+    background-color: #ffa4ae;
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 10px;
+    transition: transform 0.15s ease,
+                background-color 0.15s ease;
+}
+
+.button a:active{
+    transform: scale(0.8);
+}
+
+.intro-image{
+    display: flex;
+    justify-content: center;
+}
+
+.intro-image img{
+    width: 400px;
+    height: auto;
+    margin-top: 40px;
+}
+
+/* intro-no.html */
+h1{
+    text-align: center;
+    color: rgb(254, 143, 184);
+}
+.no-image{
+    display: flex;
+    justify-content: center;
+}
+
+.no-image img{
+    width: 25%;
+    height: auto;
+    margin-top: 40px;
+}
+/* main.html */
+.wrapper-main{
+    margin: 30px;
+}
+
+.header h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+.message p{
+    text-align: center;
+    font-size: 25px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.message h1{
+    text-align: center;
+    font-size: 35px;
+}
+
+.main-img{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-left: 30px;
+}
+
+.main-img img{
+    width: 1000px;
+    height: auto;
+}
+
+h2{
+    display: table;
+    margin: 0 auto;
+    border-bottom: 3px solid #bdf8fe;
+    border-top: 3px solid #bdf8fe;
+    padding: 20px;
+}
+
+.album{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.container{
+    width: 250px;
+    text-align: center;
+}
+
+.container img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-top: 30px;
+}
+
+.album-detail{
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.main-button{
+    text-align: center;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.main-button a{
+    display: inline-block;
+    padding: 12px 35px;
+    background-color: #bdf8fe;
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 10px;
+    transition: transform 0.2s ease,
+                background-color 0.15s ease;
+}
+
+.password-box h3{
+    text-align: center;
+}
+
+.input-box{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.password-box p{
+    display: flex;
+    justify-content: center;
+}
+
+.error p{
+    color: red;
+    font-weight: bold;
+}
+
+.scroll-animation {
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+.scroll-animation.show {
+    opacity: 1;
+}
+
+/* video.html */
+.video-page {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background: black;
+    overflow: hidden;
+}
+
+#video {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
